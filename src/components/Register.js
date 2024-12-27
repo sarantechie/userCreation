@@ -39,6 +39,7 @@ export const Register = () => {
                     value={formData.userName}
                     onChange={handleChange}
                     required
+                    // style={{color:"green",textAlign:"center"}}
                 />
 
                 <input
@@ -53,7 +54,7 @@ export const Register = () => {
                 <input
                     type="password"
                     name="password"
-                    placeholder="password"
+                    placeholder="Password"
                     value={formData.password}
                     onChange={handleChange}
                     required

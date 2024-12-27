@@ -1,14 +1,9 @@
 import React from 'react';
-import { Register } from './components/Register';
-import { Login } from './components/Login';
+import Routing from './Routes';
 
 function App() {
-  return (
-    <div className="App">
-     <h1>User Mangement</h1>
-     <Register/>
-     <Login/>
-    </div>
+ return(
+  <Routing/>
   );
 }
 
